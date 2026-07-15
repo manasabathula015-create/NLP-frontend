@@ -1,5 +1,6 @@
 import gradio as gr
 import requests
+import os
 
 API_URL = "https://nlp-backend-4.onrender.com/explain"
 
