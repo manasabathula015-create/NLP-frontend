@@ -60,8 +60,6 @@ with gr.Blocks(title="Python Code Explainer") as demo:
         lambda: ("", ""),
         outputs=[code, output]
     )
-
-demo.launch()
 if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
